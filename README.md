@@ -32,6 +32,8 @@
 
 ## 学习资料
 
+为方便大家了解各自在做什么, 相互学习, 方便后期报告写作, 我们把看到的好的相关资料整理到这里吧.
+
 ### markdown
 
 你目前看到的这份文档就是一个markdown文件😏
@@ -42,30 +44,16 @@
 
 ### git和GitHub
 
-先有git, 许久后才有了GitHub等代码托管平台. git是一个软件而GitHub是一个网站. 他们的关系是你可以通过git将你的代码托管给GitHub (就是把你的代码存到GitHub的服务器上)
-
-#### git
-
-git是一个**分布式版本控制**软件. 与它齐名的另一个版本控制软件是**SVN**.
-
-🔗 [为什么要版本控制](https://blog.csdn.net/xiaoqiangyonghu/article/details/78400313)
-
-🔗 [git安装教程](git安装教程.md)
-
-🔗 [git命令行常用命令](https://leojhonsong.github.io/zh-CN/2019/02/27/Git%E6%9D%82%E8%AE%B0/)
-
-虽然有人仍喜欢用纯命令行, 但我更喜欢使用图形化软件来操作git. 此处推荐三款软件.
-
-##### GitHub Desktop
-
-🔗 [下载地址](https://desktop.github.com/)
-
-GitHub官方客户端. 我自己也在用. 它的特点是**只能管理托管在GitHub的git仓库**. (不过我们仓库都在GitHub所以没影响) 它很有用的一点是**能在一个面板上看到你每个仓库的更新情况**.
-
-#### GitHub
+[详情](git和github.md)
 
 ### ssh
+
+小车在线调试前期远程连接小车的方式. 因为主板打算采用树莓派4, 因此只需要让树莓派和电脑在同一个WiFi下就可以通过访问树莓派ip来ssh连接. (树莓派自身也可以开启热点/手机热点)
+
+[详情](ssh.md)
 
 ### 效率工具
 
 鉴于大家用的都是Windows系统我们就只讨论Windows系统的好工具吧.
+
+[详情](效率工具.md)
