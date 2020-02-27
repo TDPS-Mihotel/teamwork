@@ -46,9 +46,13 @@
 
 [详情](git和github.md)
 
+### 文档驱动开发
+
+🔗 [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+
 ### ssh
 
-小车在线调试前期远程连接小车的方式. 因为主板打算采用树莓派4, 因此只需要让树莓派和电脑在同一个WiFi下就可以通过访问树莓派ip来ssh连接. (树莓派自身也可以开启热点/手机热点)
+小车在线调试前期远程连接小车的方式. 因为主板打算采用树莓派4, 因此只需要让树莓派和电脑在同一个WiFi下就可以通过访问树莓派ip来ssh连接. (树莓派自身开启热点/手机热点)
 
 [详情](ssh.md)
 
