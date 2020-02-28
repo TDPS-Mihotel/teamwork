@@ -1,5 +1,17 @@
 # teamwork
 
+1. [开发规范](#开发规范)
+   1. [文件命名](#文件命名)
+   2. [文件编码格式](#文件编码格式)
+   3. [开发语言](#开发语言)
+2. [学习资料](#学习资料)
+   1. [markdown](#markdown)
+   2. [git和GitHub](#git和GitHub)
+   3. [文档驱动开发](#文档驱动开发)
+   4. [ssh](#ssh)
+   5. [Python](#Python)
+   6. [效率工具](#效率工具)
+
 ## 开发规范
 
 ### 文件命名
@@ -30,6 +42,12 @@
 
 🔗 [了解更多关于cp936](https://leojhonsong.github.io/zh-CN/2019/05/29/%E6%9C%89%E5%85%B3%E5%AD%97%E7%AC%A6%E9%9B%86%E4%B8%8E%E7%BC%96%E7%A0%81/#%E8%87%AA%E6%95%B4%E7%90%86%E7%9A%84%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6%E9%9B%86%E5%8F%91%E5%B1%95%E5%8F%B2)
 
+### 开发语言
+
+因为以树莓派4为主板, Python生态很好, 另外Python语法较为直观, 开发迅速, 除底盘组内容我们先统一以**Python3.7**为开发语言验证原型, 如果有必要后期在用C++重写需要算力部分.
+
+为避免大家环境冲突, 统一使用**conda**作为虚拟环境管理器.
+
 ## 学习资料
 
 为方便大家了解各自在做什么, 相互学习, 方便后期报告写作, 我们把看到的好的相关资料整理到这里吧.
@@ -55,6 +73,20 @@
 小车在线调试前期远程连接小车的方式. 因为主板打算采用树莓派4, 因此只需要让树莓派和电脑在同一个WiFi下就可以通过访问树莓派ip来ssh连接. (树莓派自身开启热点/手机热点)
 
 [详情](ssh.md)
+
+### Python
+
+🔗 [python速成-python图像处理体验](https://uestc-fury.com/2019/02/python%E9%80%9F%E6%88%90-python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%BD%93%E9%AA%8C/) 👈 Anaconda是什么&Anaconda安装教程&一些Python处理图像的内容
+
+💡 这篇文章的内容稍有过时, [清华镜像源](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/)已恢复且因为版权问题国内目前只有这一个Anaconda源
+
+💡 如果即便你给Anaconda换了国内源用conda下载东西速度还是很慢, 或者你更喜欢用pip安装python包, 也可以给pip换[清华源](https://mirror.tuna.tsinghua.edu.cn/help/pypi/) (速度很快). ⚠️ 减少conda与pip混用.
+
+🔗 [Python语法速成](https://leojhonsong.github.io/zh-CN/2019/09/12/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/)
+
+💡 这个网站的表格是熊猫色, 没设置好, 白底白字看不大清可以选中来看清. 大家将就一下😅
+
+🌟 [Python Tutor](http://pythontutor.com/) 是一个强烈推荐的可视化你的Python代码运行具体过程的网页工具
 
 ### 效率工具
 
