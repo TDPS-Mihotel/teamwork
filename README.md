@@ -7,13 +7,15 @@
       1. [语言及版本](#语言及版本)
       2. [虚拟环境管理器](#虚拟环境管理器)
       3. [代码风格](#代码风格)
+      4. [结对编程](#结对编程)
 2. [学习资料](#学习资料)
    1. [markdown](#markdown)
    2. [git和GitHub](#git和GitHub)
    3. [文档驱动开发](#文档驱动开发)
-   4. [ssh](#ssh)
-   5. [Python](#Python)
-   6. [效率工具](#效率工具)
+   4. [项目管理](#项目管理)
+   5. [ssh](#ssh)
+   6. [Python](#Python)
+   7. [效率工具](#效率工具)
 
 ## 开发规范
 
@@ -59,6 +61,10 @@
 
 建议统一使用[pycodestyle](http://pycodestyle.pycqa.org/en/latest/intro.html) (旧称pep8)作为Python代码样式检查器, [autopep8](https://pypi.org/project/autopep8/)作为Python代码自动格式化工具.
 
+#### 结对编程
+
+为利于结对编程请大家一定要写尽量详尽的**代码注释**, 同时要写**文档**, 方便其他组同学快速了解你们部分的原理及如何配合.
+
 ## 学习资料
 
 为方便大家了解各自在做什么, 相互学习, 方便后期报告写作, 我们把看到的好的相关资料整理到这里吧.
@@ -78,6 +84,10 @@
 ### 文档驱动开发
 
 🔗 [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+
+### 项目管理
+
+🔗 [如何使用 Issue 管理软件项目](http://www.ruanyifeng.com/blog/2017/08/issue.html)
 
 ### ssh
 
