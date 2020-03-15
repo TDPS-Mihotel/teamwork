@@ -18,6 +18,7 @@
    5. [ssh](#ssh)
    6. [Python](#Python)
    7. [效率工具](#效率工具)
+   8. [Zenhub](#Zenhub)
 
 ## 开发规范
 
@@ -124,3 +125,6 @@
 鉴于大家用的都是Windows系统我们就只讨论Windows系统的好工具吧.
 
 [详情](效率工具.md)
+
+### Zenhub
+[详情](Zenhub.md)
