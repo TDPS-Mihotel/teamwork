@@ -16,10 +16,11 @@
    2. [git和GitHub](#git和GitHub)
    3. [文档驱动开发](#文档驱动开发)
    4. [项目管理](#项目管理)
-   5. [ssh](#ssh)
-   6. [Python](#Python)
-   7. [效率工具](#效率工具)
-   8. [Zenhub](#Zenhub)
+      1. [Zenhub使用及理解](#Zenhub使用及理解)
+   5. [VSC使用及设置](#VSC使用及设置)
+   6. [ssh](#ssh)
+   7. [Python](#Python)
+   8. [效率工具](#效率工具)
 
 ## 开发规范
 
@@ -109,6 +110,14 @@
 
 🔗 [如何使用 Issue 管理软件项目](http://www.ruanyifeng.com/blog/2017/08/issue.html)
 
+#### Zenhub使用及理解
+
+[详情](Zenhub.md)
+
+### VSC使用及设置
+
+[详情](VSCsettings.md)
+
 ### ssh
 
 小车在线调试前期远程连接小车的方式. 因为主板打算采用树莓派4, 因此只需要让树莓派和电脑在同一个WiFi下就可以通过访问树莓派ip来ssh连接. (树莓派自身开启热点/手机热点)
@@ -134,6 +143,3 @@
 鉴于大家用的都是Windows系统我们就只讨论Windows系统的好工具吧.
 
 [详情](效率工具.md)
-
-### Zenhub
-[详情](Zenhub.md)
