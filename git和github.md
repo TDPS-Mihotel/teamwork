@@ -1,5 +1,5 @@
 1. [git](#git)
-   1. [Commit messag](#Commit-messag)
+   1. [Commit message](#Commit-message)
    2. [图形化软件](#图形化软件)
       1. [GitHub Desktop](#GitHub-Desktop)
       2. [Tower](#Tower)
@@ -34,7 +34,7 @@ git config --global http.proxy socks5://127.0.0.1:5678
 git config --global --unset http.proxy
 ```
 
-### Commit messag
+### Commit message
 
 🔗 [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
